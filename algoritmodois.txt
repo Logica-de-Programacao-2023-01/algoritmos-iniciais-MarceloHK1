@@ -1,0 +1,12 @@
+1: leia a temperatura A
+se A estiver na escala celsius então
+2: encontre a var temperatura fahrenheit ao:
+2.1: multiplique a temperatura A por 1,8
+2.2: some 32 ao resultado encontrado em "2.1"
+3: escreva a var temperatura fahrenheit
+senão A estiver na escala fahrenheit então
+4: encontre a var temperatura celsius ao:
+4.1: subtraia a temperatura A em 32
+4.2: divida o resultado encontrado em "4.1" por 9
+4.3: multiplique o resultado encontrado em "4.2" por 5
+5: escreva a var temperatura celsius
