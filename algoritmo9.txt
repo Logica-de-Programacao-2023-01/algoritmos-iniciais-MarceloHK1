@@ -1,0 +1,8 @@
+algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos
+
+
+1: leia capital inicial C
+2: leia taxa de juros i
+3: leia período de tempo t
+4: montante = C x (1+i)^t
+5: escreva o montante
