@@ -1,0 +1,8 @@
+um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+
+1: leia x
+2: se x > 0:
+3: 	resultado = x! = produto de todos os números inteiros de 1 até x
+4: 	escreva o resultado é resultado
+5: senão:
+6: 	escreva o resultado é inexistente
