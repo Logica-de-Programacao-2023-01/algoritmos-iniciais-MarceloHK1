@@ -1,5 +1,5 @@
 1: leia A	
 2: leia B
 3: calcule a var soma A + B
-4; escreva a soma
+4:escreva a soma
 
