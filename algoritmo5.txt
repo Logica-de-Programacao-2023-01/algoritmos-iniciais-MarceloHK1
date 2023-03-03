@@ -1,0 +1,10 @@
+algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo
+
+1: leia lista de números
+2: leia determinado elemento X
+3: verifique a lista de números elemento por elemento
+se elemento verificado = X então
+4:	pare a verificação
+5:	escreva elemento X
+senão
+6:	verifique o próximo elemento da lista
