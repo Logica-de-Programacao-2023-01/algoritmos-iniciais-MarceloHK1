@@ -1,0 +1,6 @@
+1: solicitar a lista com números
+2: inicializar a var soma com 0
+3: para cada número da lista adicione-o a var soma
+4: calcule a média dividindo a var soma pela quantidade de números da lista
+5: mostrar a média
+
