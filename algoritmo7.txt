@@ -1,0 +1,7 @@
+algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo
+
+1: leia X
+se X for divisível apenas por 1 e X então
+2: escreva X é primo
+senão
+3: escreva X não é primo
