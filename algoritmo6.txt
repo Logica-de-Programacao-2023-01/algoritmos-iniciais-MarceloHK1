@@ -1,6 +1,8 @@
 algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
 
 1: leia x
-2: leia y
-3: calcule a var potência = x^y
-4: escreva a potência
+2: leia potencia
+3: var resultado = x
+4: para todos os valores entre 1 e potencia, faça:
+5:    resultado = resultado * x
+6: escreva resultado
