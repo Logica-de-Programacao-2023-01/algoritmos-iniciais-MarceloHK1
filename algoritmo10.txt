@@ -2,10 +2,10 @@ algoritmo que calcula a média ponderada de uma lista de números com base nos p
 
 1: leia lista de números
 2: leia lista de pesos de cada número da lista de números
-3: soma = 0
-4: para cada elemento da lista de números faça:
-5:	soma = (elemento x peso do elemento) + soma
-6: pesos = 0
+3: var soma = 0
+4: var pesos = 0
+5: para cada elemento da lista de números faça:
+6:	soma = (elemento x peso do elemento) + soma
 7: para cada elemento da lista de pesos faça:
 8:	pesos = elemento + pesos
 9: media = soma/pesos
