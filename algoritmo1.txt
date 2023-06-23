@@ -1,5 +1,80 @@
-1: leia A	
-2: leia B
-3: calcule a var soma A + B
-4:escreva a soma
+package main
 
+func cinco(racao map[string]int, animais map[string]int, universal int) bool {
+	sobradog := animais["dog"] - racao ["dog"]
+	sobracat := animais["cat"] - racao["cat"]
+	sobrabird := animais["bird"] - racao["bird"]
+
+	verifidog := sobradog <= 0
+	verificat := sobracat <= 0
+	verifibird := sobrabird <= 0
+
+	sobratudo := sobradog + sobracat +sobrabird
+	racaouniversal := universal >= sobratudo
+
+	return (verifidog && verificat && verifibird) || racaouniversal
+}
+package main
+
+func quatro(numeros []int) int {
+	impar := 0
+	par := 0
+
+	for _, number := range numeros {
+		if number%2 == 0 {
+			par++
+		} else {
+			impar++
+		}
+	}
+	if impar > par {
+		for posicao, number := range numeros {
+			if number%2 == 0 {
+				return posicao
+			}
+		}
+	} else if par > impar {
+		for posicao, number := range numeros {
+			if number%2 != 0 {
+				return posicao
+			}
+		}
+	}
+	return 0
+}
+package main
+
+func dois(accounts [][]int) int {
+	maiorriqueza := 0
+	for _, i := range accounts {
+		riqueza := 0
+		for _, j := range i {
+			riqueza += j
+		}
+		if riqueza > maiorriqueza {
+			maiorriqueza = riqueza
+		}
+	}
+	return maiorriqueza
+}
+package main
+
+type item struct {
+	Type  string
+	Color string
+	Name  string
+}
+
+func um(itens []item, ruleKey string, ruleValue string) int {
+	contagem := 0
+	for _, i := range itens {
+		if ruleKey == "type" && ruleValue == i.Type {
+			contagem++
+		} else if ruleKey == "color" && ruleValue == i.Color {
+			contagem++
+		} else if ruleKey == "name" && ruleValue == i.Name {
+			contagem++
+		}
+	}
+	return contagem
+}
